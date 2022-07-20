@@ -1,16 +1,120 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-      <!--Import materialize.css-->
-      <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
+<html>
+  <head>
+    <!--Import Google Icon Font-->
+    <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--Import materialize.css-->
+    <link type="text/css" rel="stylesheet" href=
+    "https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css" 
+    media="screen,projection"/>
+
+    <!-- QUERYMINE Page Center Css -->
+
+    <style>
+            html,
+        body {
+            height: 100%;
+        }
+        html {
+            display: table;
+            margin: auto;
+        }
+        body {
+            display: table-cell;
+            vertical-align: middle;
+        }
+    </style>
+
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  </head>
+
+  <body class="grey">
     
-</body>
+
+        <!-- Form Section -->
+
+      <form action="" method="GET"> <!-- Change The Form Method From Here-->
+    <div class="card-panel z-depth-5 black">
+
+
+
+        <div class="row margin">
+            <div class="col s12 m12 l12 center">
+                <img src="https://st3.depositphotos.com/1050070/13243/i/950/depositphotos_132435332-stock-photo-google-logo-on-pc-screen.jpg"  class="responsive-img circle" style="width:100px;">
+            </div>
+        </div>
+
+        <!-- Form Username Input Section -->
+
+        <div class="col s12 m12 l12">
+            <div class="input-field">
+                <i class="material-icons prefix">person</i>
+                <input type="text" name="username" id="username">
+                <label for="username">Username</label>
+            </div>
+        </div>
+
+        <!-- Form Password Input Section -->
+
+        <div class="col m12 l12">
+            <div class="input-field">
+                <i class="material-icons prefix">lock</i>
+                <input type="password" name="password" id="password">
+                <label for="password">Password</label>
+            </div>
+        </div>
+
+            <!-- Form Chekbox (Remember Me) Input Section -->
+
+        <div class="left">
+            <input type="checkbox" id="checkbox">
+            <label for="checkbox">Remember Me</label>
+        </div>
+        <br><br>
+
+            <!-- Form Button Section  -->
+
+        <div class="center">
+            <input type="submit" value="Login" name="login" 
+            class="btn waves-effect waves-light" onclick="window.location.href='home.html';"
+            style="width:100%; background-color: #ff4081;">
+        </div>
+
+            <!-- Form "Register Now" And "Forgot Password" Link Section. -->
+
+      <br>
+      <div class="row">
+    
+        <div class="col s6">
+          <div class="center">
+            <input type="submit" value="GOOGLE" name="GOOGLE" class="btn waves-effect waves-light " style="width:100%; background-color: #ff4081;">
+        </div>
+        </div>
+        <div class="col s6"div class="center">
+          <input type="submit" value="APPLE" name="APPLE" 
+          class="btn waves-effect waves-light " 
+          style="width:100%; background-color: #ff4081;">
+      </div>
+      <div class="" style="font-size:14px;"><br>
+        <a href="home.html" target="_blank"class="left">Register Now!</a>
+        <a href="" class="right ">Forgot Password?</a>
+     </div>
+
+    </div>
+      </div><br>
+
+
+        
+    </div>
+</form>
+ 
+    <!--Import jQuery before materialize.js-->
+    <script type="text/javascript" 
+    src="https://code.jquery.com/jquery-2.1.1.min.js">
+    </script>
+    <script type="text/javascript" 
+    src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js">
+    </script>
+  </body>
 </html>
-<script src="js\materialize.min.js"></script>
